@@ -6,4 +6,3 @@
 - ¿Cómo se aprueba un pull request en Github?
 ````El pull request se aprueba de la siguiente manera:...````
 - Bibliografía
-````1er Link...````
