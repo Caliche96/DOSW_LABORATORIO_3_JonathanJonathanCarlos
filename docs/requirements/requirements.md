@@ -9,18 +9,3 @@
 | RF: Recibir notificaciones                                                                                                                                                                                                                                                                                                                        
 | RF: Realizar pagos de servicios                                                                                                                                                                                                                                                                                                                  
 
----
-
-## Detalles de requerimientos seleccionados
-
-+ Autenticar Usuario:
-
-+ Realizar depósitos:
-
-+ Consultar saldo: 
-
-
----
-
-## Preguntas de análisis crítico
-
