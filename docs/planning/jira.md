@@ -49,5 +49,8 @@
   - tarea 3:
   ![historia 4 t3.png](../images/historia%204%20t3.png)
 
-## 4. Timeline
+## 4 Actualizar scrum_work_bankify.md con los IDs
+![actualizo el scrum.png](../images/actualizo%20el%20scrum.png)
+
+## 5. Timeline
 ![cronograma .png](../images/cronograma%20.png)
