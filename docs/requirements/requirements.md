@@ -205,3 +205,7 @@ Es una de las funciones principales que esperan los usuarios de una aplicación 
 d. ¿Existe algún requerimiento que NO debería realizarse en el MVP? ¿Por qué?
 
 Sí. RF: Generar reporte tributario en PDF para el cliente y RF: Enviar reporte a la DIAN en formato JSON podrían dejarse para una fase posterior. Estas funcionalidades son especializadas y no son esenciales para que el usuario pueda utilizar las funciones básicas del banco, como iniciar sesión, consultar su saldo o realizar transacciones. Implementarlas después permitiría lanzar un MVP más rápido y enfocado en las necesidades principales.
+
+## mockup y flujo de navegación Deposito a una cuenta 
+
+![mockupDepositoCuenta.png](../images/mockupDepositoCuenta.png)
