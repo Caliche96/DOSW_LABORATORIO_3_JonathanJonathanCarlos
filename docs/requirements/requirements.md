@@ -173,3 +173,35 @@ El sistema debe permitir realizar depósitos a una cuenta bancaria registrada, i
 * El saldo de la cuenta debe actualizarse correctamente.
 * La operación debe registrarse para fines de auditoría.
 * El tiempo de respuesta debe ser inferior a 2 segundos.
+
+# PREGUNTA DE ANÁLISIS
+a. ¿Identifica algún requerimiento que deba detallarse más? ¿Cuál(es)? ¿Por qué?
+
+Sí. Algunos requerimientos necesitan más detalle para evitar ambigüedades:
+
+- RF: Recibir notificaciones, porque no especifica si serán por correo electrónico, SMS o notificaciones dentro de la aplicación.
+
+- RF: Consultar movimientos, porque no indica si existe un límite de fechas, filtros o cantidad máxima de registros.
+
+- RNF: Recuperar la información después de una falla crítica, porque no define el tiempo máximo permitido para la recuperación ni la cantidad de datos que podrían perderse.
+
+b. ¿Existen requerimientos que se contradigan entre sí? ¿Cuáles?
+
+No se observan contradicciones directas entre los requerimientos. Sin embargo, existe una posible redundancia entre:
+
+- RNF: Disponibilidad del 99.5% de uptime mensual.
+- RNF: El servicio debe estar operativo las 24 horas del día, los 7 días de la semana, salvo mantenimientos programados.
+
+Ambos hacen referencia a la disponibilidad del sistema y podrían unificarse en un solo requerimiento para evitar duplicidad.
+
+c. Si tuviera que dar prioridad, ¿cuáles serían los 2 más importantes para una primera iteración? Justifique.
+- RF: Autenticar usuarios con usuario y contraseña.
+
+Es fundamental para garantizar que solo los clientes autorizados puedan acceder a sus cuentas y realizar operaciones.
+- RF: Consultar el saldo de una cuenta por el cliente.
+
+Es una de las funciones principales que esperan los usuarios de una aplicación bancaria y aporta valor desde las primeras versiones del sistema.
+
+d. ¿Existe algún requerimiento que NO debería realizarse en el MVP? ¿Por qué?
+
+Sí. RF: Generar reporte tributario en PDF para el cliente y RF: Enviar reporte a la DIAN en formato JSON podrían dejarse para una fase posterior. Estas funcionalidades son especializadas y no son esenciales para que el usuario pueda utilizar las funciones básicas del banco, como iniciar sesión, consultar su saldo o realizar transacciones. Implementarlas después permitiría lanzar un MVP más rápido y enfocado en las necesidades principales.
