@@ -54,3 +54,10 @@
 
 ## 5. Timeline
 ![cronograma .png](../images/cronograma%20.png)
+
+### Sprint Backlog
+![img.png](../images/SprintBacklog.png)
+
+Tomamos la decisión de esta manera, porque sabemos las capacidades que tiene cada integrante de nuestro equipo, de esta manera
+nos podemos complementar muy bien y ayudarnos para cumplir en su totalidad el TDD. Y verificar al momento del desarrollo que se 
+deben de hacer cambios en alguna actividad.
