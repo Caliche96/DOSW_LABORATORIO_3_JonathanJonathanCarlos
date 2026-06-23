@@ -46,3 +46,16 @@ Bibliografía
 Aprende Git. (s. f.). ¿Qué es un pull request? https://aprendegit.com/que-es-un-pull-request/
 freeCodeCamp. (s. f.). Cómo hacer tu primer pull request en GitHub. https://www.freecodecamp.org/espanol/news/como-hacer-tu-primer-pull-request-en-github/
 GitHub Docs. (s. f.). Crear una solicitud de extracción (pull request). https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request?gt
+
+
+
+## Preguntas Reflexivas
+- ¿Cuál fue la mayor dificultad a la hora de estimar?
+La disponibilidad de tiempo de cada persona del equipo y sabiendo sus debilidades y fortalezas al momento de programar, dado que llevar este proyecto
+es arduo y complejo. Sabemos que nos podemos demorar un tiempo largo, pero dejando todo en excelentes condiciones de entrega
+- ¿Fue fácil llegar a un consenso?
+Si. Sabemos que cada persona en nuestro equipo tiene actividades extracurriculares que posiblemente le ocupan cierto tiempo y que no le podría dedicar 
+demasiado tiempo al proyecto
+- ¿Cómo resolvieron las discrepancias?
+Estableciendo un plan de acción que cada persona debe de llevar con ciertas acciones y ciertos trabajos que entre todos debemos revisar y hablar 
+para no tener problemas al momento de llevar el proyecto a producción.
